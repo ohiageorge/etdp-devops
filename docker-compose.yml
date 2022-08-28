@@ -29,9 +29,9 @@ services:
         - WATCHTOWER_NOTIFICATION_EMAIL_SERVER_PORT=587
         - WATCHTOWER_NOTIFICATION_EMAIL_DELAY=2
     command: --interval 30 etdp-staging
-    networks:
-      - watchtower
-  networks:
-    watchtower:
-      external: false
+  #   networks:
+  #     - watchtower
+  # networks:
+  #   watchtower:
+  #     external: false
 
